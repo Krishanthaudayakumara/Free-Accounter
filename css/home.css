@@ -1,0 +1,23 @@
+.main-up{
+    height: 100vh;
+    background-image: url("../img/mainpost.png");
+background-position: center left;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.main-txt{
+    color: white;
+    padding-top: 40vh;
+    padding-left: 8vw;
+}
+
+.main-txt h1{
+    font-size: 6vw;
+}
+
+.mainbtn{
+    padding: 10px 50px;
+    margin-top: 50px;
+    border-radius: 200px;
+}

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+:root {
+  --theme-color-1: #6b83d6;
+  --theme-color-2: #5f86ff;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 120px;
+}
+
+.regbtn {
+  margin: 0px 10px;
+  background-color: var(--theme-color-1);
+  border: none;
+  border-radius: 20px;
+}
+
+.regbtn:hover {
+  background-color: var(--theme-color-2);
+}
+
+.userBtn {
+  background-color: var(--theme-color-2);
+  color: white;
+  margin-left: 10px;
+  border-radius: 50%;
+  border-color: #fe7742;
+}
+
+.userBtn:hover {
+  background-color: var(--theme-color-1);
+  color: rgb(0, 0, 0);
+  border-color: #fe4280;
+}
+
+.loginbtn {
+  margin-left: 20px;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+
+.loginbtn:hover {
+  border: 1px solid rgb(221, 219, 218);
+  background-color: #fff7e1;
+}
+
+.srBtn {
+  background-color: var(--theme-color-1);
+  color: white;
+}
+
+.srBtn:hover {
+  background-color: var(--theme-color-2);
+}
+
+@media (min-width: 1250px) {
+  .navbar {
+    padding: 0px 70px;
+  }
+
+  .navbar-nav {
+    margin: 0px 20px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .dropdown-menu li {
+    position: relative;
+  }
+  .nav-item .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+  }
+  .nav-item .submenu-left {
+    right: 100%;
+    left: auto;
+  }
+  .dropdown-menu > li:hover {
+    background-color: #f1f1f1;
+  }
+  .dropdown-menu > li:hover > .submenu {
+    display: block;
+  }
+}
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+  .dropdown-menu .dropdown-menu {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+}
+/* ============ small devices .end// ============ */
+
+.form-btn {
+  margin: 10px;
+  padding: 5px 20px;
+  background-color: var(--theme-color-1);
+  border: none;
+  border-radius: 20px;.loginbtn
+  color: white;
+}
+
+.form-btn:hover {
+  background-color: var(--theme-color-2);
+}
+
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the navigation links */
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
